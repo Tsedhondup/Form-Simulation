@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Simulation</title>
+    <link rel="stylesheet" href="./dist/assets/styles/log-in.css" type="text/css">
+    <script src="./dist/assets/scripts/log-in.js" type="module" defer></script>
+    <script src="https://kit.fontawesome.com/a27b97f028.js" crossorigin="anonymous" defer></script>
+
+</head>
+
+<body>
+
+    <div class="account-msg">
+        <div class="successful">
+            <p>
+                Your account has been succesfully created
+            </p>
+            <button class="close-msg">continue</button>
+        </div>
+    </div>
+
+    <div class="robot-test">
+        <div class="img-btn-wrapper">
+            <h2>Select all the boxes with car</h2>
+            <!-- for development -->
+            <div class="img-wrapper" style="background-image: url('./dist/assets/img/pexels-mike-241316.jpg')">
+
+                <!-- for production -->
+                <!-- <div class="img-wrapper" style="background-image: url('../img/pexels-mike-241316.jpg')"> -->
+
+
+                <p></p>
+                <p></p>
+                <p></p>
+                <p class="right-box"></p>
+                <p class="right-box"></p>
+                <p class="right-box"></p>
+                <p class="right-box"></p>
+                <p class="right-box"></p>
+                <p class="right-box"></p>
+            </div>
+            <div class="btn-wrapper">
+                <button class="continue">continue</button>
+            </div>
+        </div>
+
+    </div>
+
+    <section>
+        <div class="section-contents">
+            <div class="brand-info">
+                <div>
+                    <h2>Form Simlution</h2>
+                </div>
+
+            </div>
+            <div class="registration-area">
+                <div class="person-wrapper">
+                    <p class="person">
+                        <em class="secure">
+                            Secure! <i class='fas fa-lock'></i>
+                        </em>
+                        <i class="fas fa-meh"></i>
+                        <i class="fas fa-smile dis-none"></i>
+                        <i class="fas fa-frown dis-none"></i>
+                    </p>
+                </div>
+                <P class="sign-in-header">Form Simlution</p>
+                <div class="form-wrapper">
+                    <form action="">
+                        <label for="email">email</label>
+                        <input type="email" name="" id="email" placeholder="email" class="" />
+                        <div class="em-msg">
+                            <p></p>
+                        </div>
+                        <label for="password">password</label>
+                        <input type="password" name="" id="password" placeholder="password" class="" />
+                        <div class="pw-msg"></div>
+                        <div class="not-robot">
+                            <div class="robot-wrapper">
+                                <label for="robot-check" class="robot-label">I am not
+                                    robot</label>
+                                <input type="checkbox" id="robot-check">
+                            </div>
+                            <div class="robot-msg">
+
+                            </div>
+                            <button type="submit" class="submit">Sign up</button>
+                    </form>
+                </div>
+                <!-- <p class="new-account">Don't have account? <a href="">create new</a></p> -->
+            </div>
+        </div>
+
+    </section>
+</body>
+
+</html>
