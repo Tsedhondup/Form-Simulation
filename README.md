@@ -1,8 +1,8 @@
 # Form-Simulation 
-This project simulates basic form validation 
-#Prject link
-https://www.tseringdhondup.xyz/dist/assets/html/log-in.html
+This project simulates basic form validation  
 
-#Porfolio
-https://www.tseringdhondup.xyz/
+POJECT LINK : https://www.tseringdhondup.xyz/dist/assets/html/log-in.html
+
+PORTFOLIO : https://www.tseringdhondup.xyz/
+
 
